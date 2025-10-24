@@ -164,6 +164,7 @@ models_paths = {
     # Добавьте новый язык
     "es": get_model_path("model_es/vosk-model-small-es-0.22"),
 }
+```
 Обновите список языков в интерфейсе
 
 📦 Сборка EXE
@@ -183,7 +184,7 @@ pyinstaller --onefile --windowed --icon=icons/icq_transl.ico --add-data="icons;i
 
 🤝 Разработка
 Структура проекта
-
+```text
 VoiceTranslator/
 ├── 📁 icons/              # Иконки приложения
 │   ├── icq_transl.ico
@@ -199,7 +200,7 @@ VoiceTranslator/
 ├── 📝 logger_setup.py    # Логирование
 ├── 📦 requirements.txt   # Зависимости
 └── 🏗️ code.py            # Вспомогательные функции
-
+```
 Зависимости
 Основные зависимости:
 vosk - распознавание речи
